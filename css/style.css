@@ -259,4 +259,44 @@ button.btn-close {
     .header-contacts-row {
         flex-wrap: wrap;
     }
+
+    .navbar {
+        justify-content: flex-end;
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .main-page-title {
+        margin: 0;
+    }
+
+    .header-row-top-links {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .overlay-button {
+        margin-bottom: 50px;
+    }
+
+    .main-catalog-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 490px) {
+    .header-logo img {
+        width: 100%;
+    }
+
+    .header-logo {
+        margin-bottom: 15px;
+    }
+
+    .header-phones {
+        margin-bottom: 15px;
+    }
 }
