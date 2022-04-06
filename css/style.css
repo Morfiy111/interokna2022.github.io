@@ -169,6 +169,7 @@ a:hover {
 .page-btn:hover {
     background-color: #0074b8;
     color: #fff;
+    border-bottom: 2px solid #0074b8;
 }
 
 button.btn-close {
@@ -214,9 +215,48 @@ button.btn-close {
 .main-flex-catalog {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .title-page-item {
     color: #0074b8;
     margin-bottom: 40px;
+}
+
+.btn-page-block {
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+@media(max-width: 991px) {
+    .header-logo img {
+        width: 180px;
+    }
+
+    .header-phones a {
+        font-size: 16px;
+    }
+
+    .main-page-title {
+        margin: 20px 0 20px 0;
+    }
+
+    .main-flex-catalog {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .main-catalog-item {
+        width: 48%;
+    }
+}
+
+@media(max-width: 767px) {
+    .header-row-top-social {
+        display: flex;
+    }
+
+    .header-contacts-row {
+        flex-wrap: wrap;
+    }
 }
