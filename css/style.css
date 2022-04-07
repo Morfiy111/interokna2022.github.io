@@ -320,6 +320,10 @@ button.btn-close {
     display: none;
 }
 
+.footer-flex-block .header-logo {
+    background-color: transparent;
+}
+
 @media(max-width: 991px) {
     .header-logo img {
         width: 180px;
@@ -375,6 +379,19 @@ button.btn-close {
     }
 
     .main-catalog-item {
+        width: 100%;
+    }
+
+    .footer-flex-block {
+        flex-wrap: wrap;
+    }
+
+    .main-about-flex {
+        flex-direction: column;
+    }
+
+    .main-about-text,
+    .main-about-img {
         width: 100%;
     }
 }
