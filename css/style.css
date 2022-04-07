@@ -228,6 +228,98 @@ button.btn-close {
     margin-bottom: 40px;
 }
 
+.main-catalog-item a:hover {
+    border-bottom: 1px solid transparent;
+}
+
+.blue-block-item {
+    background-color: #f3f8fa;
+    padding: 40px 0;
+}
+
+.map-main-block {
+    margin-bottom: 40px;
+}
+
+.main-about-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-about-text,
+.main-about-img {
+    width: 49%;
+}
+
+.main-about-img img {
+    width: 100%;
+}
+
+#button-up {
+    display: none;
+    right: 30px;
+    margin: 0;
+    position: fixed;
+    bottom: 67px;
+    outline: none;
+    color: #0089c1;
+    line-height: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 9;
+}
+
+#button-up::before {
+    font-family: FontAwesome;
+    content: "\f062";
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px 10.79px;
+    font-size: 22px;
+}
+
+.credit-block {
+    position: fixed;
+    top: 20%;
+    left: 3.5%;
+    z-index: 1;
+}
+
+.footer-page {
+    background-color: #f3f8fa;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+.footer-flex-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    align-items: baseline;
+}
+
+.footer-flex-block a {
+    color: #0074b8;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.social-block {
+    display: flex;
+}
+
+.social-block a {
+    margin-right: 20px;
+}
+
+.footer-copyright {
+    font-size: 12px;
+}
+
+.credit-block {
+    display: none;
+}
+
 @media(max-width: 991px) {
     .header-logo img {
         width: 180px;
