@@ -345,6 +345,20 @@ button.btn-close {
     width: 100%;
 }
 
+.delivery-block {
+    margin-bottom: 40px;
+}
+
+.delivery-image {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.delivery-image img {
+    width: 400px;
+}
+
+
 @media(max-width: 991px) {
     .header-logo img {
         width: 180px;
@@ -417,6 +431,15 @@ button.btn-close {
 
     .main-about-text,
     .main-about-img {
+        width: 100%;
+    }
+
+    .delivery-image {
+        float: none;
+        margin: 0 0 20px 0;
+    }
+
+    .delivery-image img {
         width: 100%;
     }
 }
