@@ -331,14 +331,13 @@ button.btn-close {
 
 .image-content-block {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
     margin: 40px 0;
 }
 
 .galery-item {
-    width: 32.5%;
-    margin-bottom: 15px;
+    width: 250px;
+    margin: 0 15px 15px 0;
 }
 
 .galery-item img {
