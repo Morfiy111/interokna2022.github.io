@@ -54,6 +54,7 @@ a:hover {
 
 .header-page a:hover {
     border-bottom: 1px solid #fff;
+    color: #fff;
 }
 
 .header-row-top {
@@ -96,7 +97,7 @@ a:hover {
     font-size: 20px;
 }
 
-.header-block-btns button {
+.header-block-btns a {
     background-color: transparent;
     color: #fff;
     border: 2px solid #fff;
@@ -104,7 +105,7 @@ a:hover {
     font-size: 20px;
 }
 
-.header-block-btns button:hover {
+.header-block-btns a:hover {
     color: #212529;
     background-color: #fff;
 }
@@ -116,8 +117,8 @@ a:hover {
     align-items: center;
     position: relative;
     color: #fff;
-    padding: 40px 0 30px 0;
-    margin: 100px 0 40px 0;
+    padding: 30px 0 30px 0;
+    margin: 70px 0 40px 0;
     text-align: center;
 }
 
